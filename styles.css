@@ -57,3 +57,23 @@ body {
 .controls .controls_range {
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 770px) {
+    .canvas {
+        width: 300px;
+        height: 550px;
+    }
+    .controls {
+        margin-top: 30px;
+    }
+    .controls .controls_range {
+        margin-bottom: 20px;
+    }
+    .controls_btns button {
+        width: 70px;
+    }
+    .controls_colors .controls_color {
+        width: 35px;
+        height: 35px;
+    }
+}
